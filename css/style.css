@@ -1,0 +1,277 @@
+body {
+	margin: 0;
+	font-family: arial;
+}
+/*
+========================
+    GLOBAL CSS START   !
+========================
+*/
+.w-50 {
+	width: 50%;
+	overflow: hidden;
+	float: left;
+}
+
+/*
+========================
+    GLOBAL CSS END     !
+========================
+*/
+
+/*
+========================
+   HEADER SECTION START !
+========================
+*/
+
+.header-section {
+	overflow: hidden;
+	padding: 10px 0 10px 0;
+}
+
+.header-section .header-continar {
+	width: 97%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.header-section .content-wrap {
+	float: right;
+	overflow: hidden;
+}
+
+.header-section .link {
+	float: left;
+	margin: 10px 20px 0 0;
+	font-size: 14px;
+}
+
+.header-section .link a{
+	text-decoration: none;
+	color: rgba(0,0,0,0.87);
+	margin-left: 5px;
+}
+
+.header-section .link a:hover{
+	text-decoration: underline;
+}
+
+.header-section .app-menubar {
+	float: left;
+	margin: 0px 10px 0 0;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.header-section .app-menubar img{
+	width: 55%;
+	margin: 9px 0 0 9px;
+}
+
+.header-section .app-menubar:hover{
+	background-color:rgba(60,64,67,0.08);
+	border-radius: 50%;
+}
+
+.header-section .signin-button {
+	float: right;
+	background: #1a73e8;
+	border-radius: 5px;
+	padding: 7px 25px 7px 25px;
+	cursor: pointer;
+}
+
+.header-section .signin-button:hover {
+	background: #2b7de9;
+	box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+.header-section .signin-button:focus {
+	background: #5094ed;
+	box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+
+.header-section .signin-button a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 14px;
+}
+/*
+========================
+   HEADER SECTION END  !
+========================
+*/
+
+/*
+========================
+  CONTET SECTION START  !
+========================
+*/
+.content-section {
+	overflow: hidden;
+}
+
+.content-section .content-continar {
+	width: 50%;
+	margin: auto;
+}
+
+.content-section .site-name {
+	font-size: 81px;
+	font-weight: 600;
+	width: 40%;
+	margin: auto;
+	letter-spacing: -12px;
+}
+
+.content-section .site-name .blue {
+	color: #4285f4;
+}
+
+.content-section .site-name .red {
+	color: #ea4335;
+}
+
+.content-section .site-name .yellow {
+	color: #fbbc05;
+}
+
+.content-section .site-name .green {
+	color: #34a853;
+}
+
+.content-section .input-section {
+	overflow: hidden;
+	padding: 35px;
+}
+
+.content-section .search-bar {
+	width: 95%;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.content-section .search-bar:hover,
+.content-section .search-bar:focus {
+	background-color: #fff;
+	box-shadow: 0 1px 6px rgba(32,33,36,.28);
+	border-color: rgba(223,225,229,0);
+}
+
+.content-section .search-bar .search-icon {
+	width: 20px;
+	margin: 10px 8px 0 10px;
+}
+
+.content-section .search-bar #search {
+	width: 85%;
+	padding: 7px 0 7px 0;
+	border: none;
+	outline: none;
+	font-size: 16px;
+}
+
+.content-section .search-bar .keyboard-icon {
+	margin: 0 0 5px 10px;
+}
+
+.content-section .button-section {
+	width: 60%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	padding: 6px 0 6px 50px;
+}
+
+.content-section .button-section input{
+	padding: 8px 15px;
+	font-size: 14px;
+	border-radius: 4px;
+	outline: none;
+	border: 1px solid #f8f9fa;
+	background: #f8f9fa;
+	color: #3c4043;
+	cursor: pointer;
+}
+
+.content-section .button-section #submit{
+	padding: 10px 15px;
+	
+}
+
+.content-section .button-section input:hover {
+	box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	background-color: #f8f9fa;
+	border: 1px solid #dadce0;
+	color: #202124;
+}
+
+.content-section .button-section input:focus {
+	border: 1px solid #4d90fe;
+	outline: none;
+}
+
+.content-section .lang-section {
+	width: 50%;
+	margin: auto;
+	font-size: 14px;
+	text-align: center;
+	color: #222;
+}
+
+.content-section .lang-section a {
+	color: #1a0dab;
+	text-decoration: none;
+	padding-left: 2px;
+}
+
+.content-section .lang-section a:hover {
+	text-decoration: underline;
+}
+/*
+========================
+   CONTENT SECTION END  !
+========================
+*/
+.footer-section {
+	overflow: hidden;
+	background-color: #f2f2f2;
+	margin-top: 124px;
+}
+
+.footer-section .footer-container{
+	width: 95%;
+	margin: auto;
+	padding: 15px 0 15px 0;
+	overflow: hidden;
+}
+
+.footer-section .country{
+	color: rgba(0,0,0,.54);
+	font-size: 15px;
+}
+
+.footer-section .line{
+	border-bottom: 1px solid #dadce0;
+}
+
+.footer-section .privacy-link {
+	float: right;
+}
+
+.footer-section a{
+	color: #70757a;
+	text-decoration: none;
+	font-size: 14px;
+	margin-right: 25px;
+}
+
+.footer-section a:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,185 @@
+/*
+****************************************
+    THIS FILE FOR RESPONSIVENESS       *
+****************************************
+*/
+
+/*
+=================================
+   THIS CSS FOR 1280px MONITOR   !
+=================================
+*/
+@media only screen and (max-width:1280px) {
+	.content-section .content-continar {
+		width: 55%;
+	}
+}
+/*
+=================================
+   THIS CSS FOR TABLETS DISPLAY  !
+=================================
+*/
+@media only screen and (max-width:1024px) {
+	.content-section .content-continar {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width:834px) {
+	.content-section .content-continar {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width:800px) {
+	.content-section .content-continar {
+		width: 80%;
+	}
+	
+	.content-section .site-name {
+		font-size: 70px;
+		width: 35%;
+	}
+	
+	.content-section .search-bar .keyboard-icon {
+		margin: 0 0 5px 0px;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.footer-section a {
+		margin-right: 20px;
+	}
+}
+/*
+==================================
+   THIS CSS FOR MOBILE'S DISPLAY  !
+==================================
+*/
+@media only screen and (max-width:425px) {
+	.header-section .header-continar {
+		width: 90%;
+	}
+
+	.header-section .content-wrap {
+		float: none;
+	}
+
+	.content-section .content-continar {
+		width: 92%;
+	}
+
+	.content-section .site-name {
+		font-size: 50px;
+		width: 45%;
+		letter-spacing: -7px;
+		margin-top: 40px;
+	}
+
+	.content-section .input-section {
+		padding: 20px;
+	}
+
+	.content-section .search-bar {
+		width: 95%;
+	}
+
+	.content-section .search-bar .search-icon {
+		width: 14px;
+	}
+
+	.content-section .search-bar #search {
+		width: 70%;
+		padding: 5px 0 5px 0;
+		font-size: 14px;
+	}
+
+	.content-section .search-bar .keyboard-icon {
+		margin: 0;
+		display: none;
+	}
+
+	.content-section .button-section {
+		width: 100%;
+		padding: 6px 0 6px 25px;
+	}
+
+	.content-section .button-section input {
+		padding: 6px 13px;
+		font-size: 12px;
+	}
+
+	.content-section .button-section #submit {
+		padding: 8px 12px;
+	}
+
+	.content-section .button-section {
+		padding: 6px 0 6px 50px;
+	}
+
+	.content-section .lang-section {
+		width: 75%;
+		font-size: 12px;
+	}
+
+	.footer-section {
+		margin-top: 115px;
+	}
+
+	.w-50 {
+		width: 100%;
+		float: none;
+	}
+	
+	.footer-section .privacy-link {
+		float: none;
+	}
+
+	.footer-section a {
+		margin-right: 10px;
+		font-size: 12px;
+	}
+
+	.footer-section .country {
+		font-size: 13px;
+	}
+	
+	.footer-section .footer-container {
+		padding: 10px 0 10px 0;
+	}
+}
+
+@media only screen and (max-width:375px) {
+	.content-section .button-section {
+	padding: 6px 0 6px 25px;
+	}
+	
+	.content-section .site-name {
+		font-size: 46px;
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.header-section .signin-button {
+		padding: 5px 18px 5px 18px;
+	}
+
+	.header-section .signin-button a {
+		font-size: 12px;
+	}
+
+	.content-section .site-name {
+		font-size: 40px;
+		width: 45%;
+		letter-spacing: -6px;
+		margin-top: 35px;
+	}
+
+	.content-section .input-section {
+		padding: 10px;
+	}
+	
+	.content-section .button-section {
+		padding: 6px 0 6px 10px;
+	}
+}
